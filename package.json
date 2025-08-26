@@ -1,0 +1,18 @@
+{
+  "name": "telegram-vip-bot",
+  "version": "1.0.0",
+  "description": "Telegram VIP subscription bot (Telegraf) - tracks subscriptions, reminds admin, and kicks expired users.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
